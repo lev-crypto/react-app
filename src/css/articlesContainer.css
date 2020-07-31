@@ -1,0 +1,46 @@
+.listContainer{
+    width: 70%;
+    margin-left: 15%;
+    background: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.article{
+    margin: 10px;
+    width: 40%;
+    border-radius: 8px;
+    display: flex;
+}
+
+.article:hover{
+    text-decoration: underline;
+}
+
+.articleImage{
+    width: 25px;
+    height: 25px;
+}
+
+.topicDetails{
+    width: 100%;
+    height: auto;
+}   
+
+.topicDetails span{
+    margin-left: 2%;
+    width: 100%;
+}
+
+.img{
+    border: none !important;
+}

@@ -1,0 +1,146 @@
+* {
+  font-family: Work Sans, sans-serif;
+}
+
+body {
+  font-weight: normal !important;
+  font-size: 13px !important;
+}
+
+.blue {
+  color: #29b6f6;
+}
+
+.green {
+  color: #9ccc65;
+}
+
+.purple {
+  color: #ba68c8;
+}
+
+.cyan {
+  color: #4dd0e1;
+}
+
+.red {
+  color: #ef5350;
+}
+
+.black {
+  color: #000000;
+}
+
+.content {
+  height: 100vh;
+  color: white;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  top: 20%;
+}
+
+.profileDescription{
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  left: 7.5%;
+  margin: 2%;
+  display: flex;
+  -webkit-perspective: 150rem;
+  perspective: 150rem;
+  height: 15rem;
+  width: 30rem;
+  position: absolute;
+  border: 0px !important;
+}
+
+.card__side {
+  height: 15rem;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 30rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 2%;
+  overflow: hidden;
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 1);
+}
+
+.card__side--front {
+  background-image: linear-gradient(
+      90deg,
+      rgb(34, 34, 34, 0.4) 100%,
+      rgb(34, 34, 34, 0.5) 0%
+    ),
+    url("../images/profile.png");
+  background-size: cover;
+}
+
+.card__side--back {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background-color: teal;
+}
+
+/* .card:hover .card__side--front {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+} */
+
+/* .card:hover .card__side--back {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+} */
+
+.card__cont {
+  height: 15rem;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.card__cta {
+  position: absolute;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: white;
+}
+
+.card__cta p {
+  margin-left: 1rem;
+}
+
+.card__cta p > .space {
+  margin-left: 2rem;
+}
+
+.profileName{
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.profileDetails{
+  float: right !important;
+  width: 100%;
+  height: 100%;
+  margin-top: 6px;
+}
+
+.vertical{
+  writing-mode: vertical-lr;
+}

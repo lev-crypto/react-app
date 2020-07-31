@@ -1,0 +1,17 @@
+.main{
+    margin-left: 20%;
+    width: 60%;
+    white-space: break-spaces;
+    font-size: 14.5px;
+}
+
+.heading{
+    font-size: x-large;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.articleContent{
+    width: 60%;
+    margin-left: 20%;
+}

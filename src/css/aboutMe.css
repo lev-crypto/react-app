@@ -1,0 +1,16 @@
+.aboutMe{
+    color: black;
+    z-index: 1;
+    left: 8rem;
+    width: 40%;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.homeGreen{
+    color: #27496d;
+}

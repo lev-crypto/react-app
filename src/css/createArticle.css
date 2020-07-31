@@ -1,0 +1,122 @@
+.mainDiv{
+    width: 100%;
+    display: flex;
+    overflow: auto;
+}
+
+.addTextArea{   
+    height: 30px;
+    width: 50%;
+    margin-top: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none !important;
+    background: white;
+}
+
+button:focus{
+    outline: 0 !important;
+}
+
+.break{
+    flex-basis: 100%;
+    height: 0;
+}
+
+.contentPlaceholder{
+    height: 100%;
+    width: 60%;
+    overflow-y: scroll;
+    margin-left: 20%;
+}
+
+.contentHeading{
+    margin: 10px;
+}
+
+textarea{
+    width: 95%;
+    border: 0.5px black #27496d;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.contentHeading textarea{
+    height: 50px;
+}
+
+input:focus, textarea {
+    outline: none !important;
+}
+
+.contentDescription{
+    margin: 10px;
+}
+
+.contentDescription textarea{
+    height: 80px;
+}
+
+.mainContent {
+    margin: 10px;
+}
+
+.sectionContent{
+    height: 250px;
+}
+
+.addSection{
+    width: 100px;
+    height: 40px;
+    border-radius: 10%;
+    border: 1.5px #27496d medium;
+    background: white;
+}
+
+.addImageSection{
+    width: 100px;
+    height: 40px;
+    border-radius: 10%;
+    border: 1.5px #27496d medium ;
+    background: white;
+}
+
+.createButtons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.publish{
+    margin: 10px;
+    width: 45%;
+    border-radius: 5px;
+    border: 0.5px;
+    height: 40px;
+    background: #27496d;
+    color: white;
+}
+
+.publish:hover{
+    background: coral;
+    transition: ease-out 400ms;
+}
+
+h5, .h5 {
+    font-size: 14px !important;
+    font-style: bold !important;
+}
+
+.submitArticle{
+    margin: 10px;
+    width: 45%;
+    border-radius: 5px;
+    border: 0.5px;
+    height: 40px;
+    background: #27496d;
+    color: white;
+}
+
+.submitArticle:hover{
+    background: coral;
+    transition: ease-out 400ms;
+}

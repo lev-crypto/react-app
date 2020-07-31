@@ -1,0 +1,64 @@
+.vertical-menu a {
+  display: block;
+  padding: 12px;
+  color: black;
+  font-size: 12px;
+}
+
+.vertical-menu a:hover{
+  text-decoration: blink;
+  text-decoration: underline;
+  color: black;
+}
+
+.vertical-menu{
+  display: flex;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 1;
+    justify-content: flex-end;
+    align-content: space-evenly;
+    margin-top: 8%;
+    width: 100%;
+}
+
+.linkedIn{
+    background: url("https://img.icons8.com/metro/26/000000/linkedin.png");
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none !important;
+}
+
+.instagram{
+    background: url("https://img.icons8.com/metro/26/000000/instagram-new.png");
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none !important;
+}
+
+.github{
+    background: url("https://img.icons8.com/material-sharp/24/000000/github.png");
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none !important;
+}
+
+.twitter{
+    background: url("https://img.icons8.com/android/24/000000/twitter.png");
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none !important;
+}
+
+.btn:focus{
+  outline: none;
+  box-shadow: none !important;
+}

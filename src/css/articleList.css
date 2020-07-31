@@ -1,0 +1,19 @@
+.Dropdown-root{
+    align-content: center;
+    justify-content: center !important;
+}
+
+.Dropdown-control{
+    border: none;
+    background: center;
+    text-decoration: underline;
+}
+
+.Dropdown-control:hover{
+    box-shadow: none;
+}
+
+.articleDropdown{
+    width: 20%;
+    margin-left: 10px;
+}
