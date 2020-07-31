@@ -1,6 +1,6 @@
 pipeline {
    environment {
-     dockerRegistry = "sanjeevkumarrao/docker-nodejs"
+     dockerRegistry = "sandelicious/react-app"
      dockerRegistryCredential = 'dockerhub'
      dockerImage = ''
    }
