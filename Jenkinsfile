@@ -1,6 +1,6 @@
 pipeline {
    environment {
-     imageName = "aws-react-app"
+     imageName = "test-docker"
      dockerRegistry = "https://534562368940.dkr.ecr.ap-south-1.amazonaws.com/test-docker"
      dockerRegistryCredential = 'ecr:ap-south-1:test-ecr-credentials'
      dockerImage = ''
