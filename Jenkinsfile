@@ -1,5 +1,6 @@
 pipeline {
    environment {
+     imageName = "aws-react-app"
      dockerRegistry = "https://534562368940.dkr.ecr.ap-south-1.amazonaws.com/test-docker"
      dockerRegistryCredential = 'ecr:ap-south-1:test-ecr-credentials'
      dockerImage = ''
@@ -25,14 +26,14 @@ pipeline {
      stage('Building image') {
        steps{
          script {
-           dockerImage = docker.build dockerRegistry + ":$BUILD_NUMBER"
+           dockerImage = docker.build imageName + ":$BUILD_NUMBER"
          }
        }
      }
      stage('Upload Image') {
        steps{
          script {
-           docker.withRegistry( '', dockerRegistryCredential ) {
+           docker.withRegistry( dockerRegistry, dockerRegistryCredential ) {
              dockerImage.push()
            }
          }
